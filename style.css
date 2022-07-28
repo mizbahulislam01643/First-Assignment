@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner-text {
+    width: auto;
+    height: 400px;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 50px;
+    font-size: 1em;
+    text-align: center;
+    color: aquamarine;
+
+}
+
+.white {
+    color: white;
+}
+
+#banner-text h1 {
+    font-size: 4em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(#FF5959, rgb(222, 45, 6));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+}
+
+.main-container {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 40px 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container h2 {
+    padding: 30px;
+}
+
+#highlighted-amount {
+    color: #FF5959;
+    background-color: #f9e0e0;
+    border: 2px solid #ff5757;
+    border-radius: 10px;
+}
+
+#input-field {
+    border: none;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 2px solid tomato;
+}
+
+.container div {
+    width: 280px;
+    height: 500px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#chart-1 {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+#chart-2 {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+#chart-3 {
+    background-color: rgba(255, 244, 214, 1);
+}
+
+form {
+    background-color: rgb(85, 78, 56);
+    margin: 20px 250px 80px;
+    padding: 20px;
+
+}
+
+input,
+textarea {
+    width: 100%;
+    height: 30px;
+    margin: 20px 0;
+}
+
+#update-container {
+    width: 810px;
+    height: 280px;
+    margin: 40px auto;
+    background-color: rgba(255, 244, 214, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email-field {
+    height: 44px;
+    width: 300px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: lightgrey;
+    padding-left: 10px;
+}
+
+#update-container a {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 17px;
+}
+
+footer {
+    height: 170px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(6, 6, 20);
+    padding-top: 40px;
+}
+
+footer h2 {
+    font-family: 'Lobster';
+    color: rgba(255, 89, 89, 1);
+    font-weight: 400;
+    font-size: 35px;
+}
+
+footer h4 {
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+}
